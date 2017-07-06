@@ -40,5 +40,7 @@
 - Basically,Collection blog is collected from following urls with scrapy framework.So Random blog will
   not provide good results.
   
-  - tsa- https://www.dhs.gov/archive/news-releases/blog
+  - tsa - https://www.dhs.gov/archive/news-releases/blog
   - air-traffic - http://www.atc-network.com/atc-news
+  
+- Reference: https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words 
