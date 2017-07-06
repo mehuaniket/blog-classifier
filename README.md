@@ -1,11 +1,11 @@
-# blog-classifier
+# Blog-Classifier
 
 ## Introduction 
 
 - This is small tool to classify blog in categories using random-forest.
 - Training set is in blogs.csv in following format
 - To predict category for blog you've to use `use_forest_prediction.py`. May be you can change the way 
-  data is provided to the function top integrate with backend. 
+  data is provided to the function to integrate with backend. 
  
 ```
    |----------------------|
