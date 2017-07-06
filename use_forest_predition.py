@@ -19,7 +19,8 @@ def blog_to_words( blog ):
     letters_only = re.sub("[^a-zA-Z]", " ", review_text)
     #
     # 3. Convert to lower case, split into individual words
-    words = letters_only.lower().split()
+    lower_case = letters_only.lower()  # Convert to lower case
+    words = lower_case.lower().split()
     #
     # 4. In Python, searching a set is much faster than searching
     #   a list, so convert the stop words to a set
