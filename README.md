@@ -26,15 +26,16 @@
 - run following command in folder.
 
 ```bash
-   python bag-of-word.py
+   python bag-of-words.py
 ```
+- comment out 15th line in `bag-of-words.py` after downloading stopwords from popup.
 
 ## Make Prediction
 
 - In order to make prediction,Run `user_forest_prediction.py'
 
 ```python
-   python user_forest_prediction.py
+   python user_forest_predition.py
 ```
 
 - Basically,Collection blog is collected from following urls with scrapy framework.So Random blog will

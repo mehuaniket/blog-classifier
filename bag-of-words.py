@@ -1,3 +1,4 @@
+import nltk
 import pandas as pd
 from nltk.corpus import stopwords # Import the stop word list
 import re
@@ -11,7 +12,7 @@ printable = set(string.printable)
 # you can give any csv which has blog and category column
 train = pd.read_csv("blogs.csv", header=0, \
                     delimiter=",", quoting=2)
-
+nltk.download()
 
 stopwords.words("english")
 print "total [row,column] in csv =>",train.shape
